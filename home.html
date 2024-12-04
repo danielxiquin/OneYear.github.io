@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <title>casa de ositos</title>
+</head>
+<body>
+
+    <header class="header" id="header1">
+        <div class="logo">
+            <img src="assets/img/Imagen4.png" alt="" width="100">
+        </div>
+        <div class="menu">
+            <ul class="lista">
+                <li class="list"><a href="#ositos">Ositos</a></li>
+                <li class="list"><a href="#momentos">Momentos ositos</a></li>
+                <li class="list"><a href="#cine">Ositos cinematograficos</a></li>
+                <li class="list"><a href="#music">Zona musical de ositos</a></li>
+                <li class="list"><a href="#exit">Salida de ositos</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="ositos" id="ositos">
+                <img src="assets/img/cerca.JPG" alt="">
+                <div class="infOsitos">
+                    <h1>
+                         <span>Hola osita</span>
+                    </h1>
+                    <p style="margin-right: 40px;">Amor, nuestras aventuras recién comienzan, y sé que nosotros somos la razón de ser del otro. Eso lo amo y lo amaré siempre.</p>
+                </div>
+            </div>
+            
+            <div class="Momentos" id="momentos">
+                <h1 style="color:white">MOMENTOS OSITOS</h1>
+                <p style="color: white;">Cada momento junto a ti es uno de los más preciados de mi vida. Desearía que salir contigo fuera mi pan de cada día.</p>
+                <div class="album">
+                    <img src="assets/img/manitas.jpg" alt="" height="500" >
+                    <img src="assets/img/restaurantes.jpg" alt="" height="500" >
+                    <img src="assets/img/juntos.jpg" alt="" height="500">
+                    <img src="assets/img/unidos.JPG" alt="" height="500" >
+                </div>
+            </div>
+
+            <div class="Cine" id="cine">
+                <h1 style="color: white;">OSITOS CINEMATOGRAFICOS</h1>
+                <p style="color: white;">De los momentos más divertidos de mi vida es intentar recrear escenas contigo. Es lindo la conexión que tenemos y, aún más, el amor que nos tenemos.
+                </p>
+                <video autoplay loop muted src="assets/img/cine.mp4" width="500"></video>
+            </div>
+
+            <div class="music" id="music">
+                <h1 style="color: white;">ZONA MUSICAL DE OSITOS</h1>
+                <p style="color: white;">Cada canción que me dedicaste ha quedado marcada en mi corazón y en mi vida. Cada una de ellas refleja una parte de nuestra relación, <br> y por eso podría escucharlas cada día de mi vida que me queda.
+                </p>
+                <iframe id="spotifyPlayer" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2ATp4s4j9Iyjei13vJCKeh?utm_source=generator" width="900" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+
+            <div class="exit" id="exit">
+                <h1 style="color: white;">SALIDA DE OSITOS</h1>
+                <div class="sal">
+                    <a href="index.html">
+                        <img src="assets/img/salida.jpg" alt="" width="500" style="margin-left: 40px;">
+                    </a>
+                    <p style="color: white; margin-right: 40px;">
+                        Mi amor, aquí termina mi regalo, pero deseo con todo mi corazón que este lugar siga creciendo, al igual que nuestro amor. Este es solo el comienzo de un año, 
+                        y aún queda mucho más por hacer. Con amor y dedicación, juntos lograremos todas nuestras metas. ❤️</p>
+                </div>
+
+                
+            </div>
+        </div>
+    </main>
+
+    <script>
+        window.onload = function () {
+        history.replaceState(null, "", "index.html");
+        };
+    </script>
+
+</body>
+</html>
